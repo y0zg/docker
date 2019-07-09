@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# https://docs.docker.com/registry/spec/api/#/listing-image-tags
+# Example: 
+# curl https://registry.hub.docker.com/v1/repositories/ubuntu/tags
+
 if [ $# -lt 1 ]
 then
 cat << HELP
